@@ -1,0 +1,27 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:400,700);
+
+
+$body-bg: #F2F1EF;
+$navbar-border-radius: border-radius-base;
+$navbar-default-bg: #fff;
+$navbar-default-border: #DADFE1;
+$navbar-height: 80px;
+$navbar-default-toggle-border-color: #DADFE1;
+$navbar-default-toggle-icon-bar-bg:#DADFE1;
+$navbar-default-toggle-hover-bg:#EEEEEE;
+$navbar-default-link-hover-color: black;
+$navbar-default-brand-hover-color: #DADFE1;
+$font-family-sans-serif: 'lato',"Helvetica Neue", Helvetica, Arial, sans-serif;
+$jumbotron-color: #DADFE1;
+$jumbotron-bg: #fff;
+$navbar-default-brand-color:#52B3D9;
+
+.center{
+
+  text-align: center;
+}
+
+.navbar-brand{
+  font-weight: bold;
+}
+@import 'bootstrap';
