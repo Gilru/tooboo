@@ -7,16 +7,17 @@
       <!--div id= "box" for masonry-->
 
       <div class="box panel panel-default">
-      <%= image_tag pin.image.url(:medium) %>
+      <%= link_to image_tag(pin.image.url(:medium)) ,pin  %>
+
       <div class="panel-body">
         <%= pin.description %>
 
 
-        <%= link_to 'Show', pin %>
+
 
         <% if pin.user == current_user && user_signed_in? %>
-            <%= pin.user.email if pin.user %>
-        <%= link_to 'Edit', edit_pin_path(pin) %>
+            <p><%= pin.user.email if pin.user %></p>
+        <p><%= link_to 'Edit', edit_pin_path(pin) %></p>
         <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
 
 
