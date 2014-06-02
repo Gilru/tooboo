@@ -1,4 +1,4 @@
-
+<%= render 'pages/home' unless user_signed_in? %>
 
 <!--div id= "pins" for masonry-->
 <div id="pins" class="transitions-enabled">
@@ -15,10 +15,19 @@
 
 
 
-        <% if pin.user == current_user && user_signed_in? %>
-            <p><%= pin.user.email if pin.user %></p>
-        <p><%= link_to 'Edit', edit_pin_path(pin) %></p>
-        <%= link_to 'Destroy', pin, method: :delete, data: { confirm: 'Are you sure?' } %>
+   <% if pin.user == current_user && user_signed_in? %>
+            <p><%= pin.user.name if pin.user %></p>
+
+        <p><%= link_to edit_pin_path(pin) do %>
+              <span class="glyphicon glyphicon-pencil"></span> Edit &nbsp
+              <% end %>
+
+
+                  <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
+
+              <span class="glyphicon glyphicon-trash"></span> Delete
+              <% end %>
+              </p>
 
 
         <% end %>
@@ -29,3 +38,5 @@
 
 
     </div>
+
+<%= will_paginate @pins , renderer: BootstrapPagination::Rails %>

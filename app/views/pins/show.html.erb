@@ -4,9 +4,11 @@
   <strong>Description:</strong>
   <%= @pin.description %>
 </p>
+
+<p>  <%= image_tag @pin.image.url(:medium) %></p>
 <% if @pin.user == current_user %>
 
-    <%= image_tag @pin.image.url(:medium) %>
+
 
 <%= link_to 'Edit', edit_pin_path(@pin) %> |
     <% end %>
