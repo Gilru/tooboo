@@ -2,19 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0e679e85-ad87-4bf5-acc6-7cb2fb3f629a" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/pages/home.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/_home.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/application_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/application_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/index.html.erb" afterPath="$PROJECT_DIR$/app/views/pins/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" afterPath="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/pin.rb" afterPath="$PROJECT_DIR$/app/models/pin.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/pins_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pins/show.html.erb" afterPath="$PROJECT_DIR$/app/views/pins/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/tooboo.iml" afterPath="$PROJECT_DIR$/.idea/tooboo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/user.rb" afterPath="$PROJECT_DIR$/app/models/user.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="tooboo.iws" />
@@ -41,41 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="edit.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="820">
-              <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46130502" vertical-offset="0" max-vertical-offset="893">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="-28.03125" vertical-offset="0" max-vertical-offset="1081">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <file leaf-file-name="show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="620">
-              <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application_controller.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-              <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+            <state vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="672">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,7 +78,6 @@
         <option value="$PROJECT_DIR$/app/views/devise/shared/_links.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/sessions/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_customization.css.scss" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/db/migrate/20140529171447_add_image_columns_to_pins.rb" />
         <option value="$PROJECT_DIR$/app/views/pins/new.html.erb" />
         <option value="$PROJECT_DIR$/app/views/pins/edit.html.erb" />
@@ -123,11 +92,12 @@
         <option value="$PROJECT_DIR$/app/views/pins/show.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/pins_controller.rb" />
         <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/models/pin.rb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb" />
         <option value="$PROJECT_DIR$/app/views/devise/registrations/new.html.erb" />
         <option value="$PROJECT_DIR$/app/controllers/application_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/pin.rb" />
         <option value="$PROJECT_DIR$/app/views/pins/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
       </list>
     </option>
   </component>
@@ -139,8 +109,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
-    <option name="y" value="50" />
+    <option name="x" value="44" />
+    <option name="y" value="22" />
     <option name="width" value="1279" />
     <option name="height" value="790" />
   </component>
@@ -170,7 +140,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="RailsProjectView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -263,6 +232,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="RailsProjectView" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -274,7 +244,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="inde&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;applic&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/application_controller.rb&#10;new&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/devise/registrations/new.html.erb&#10;edit&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/devise/registrations/edit.html.erb&#10;add_nam&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/db/migrate/20140602030247_add_name_to_users.rb&#10;pin.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;gem&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/Gemfile&#10;pins&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;contr&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pages_controller.rb&#10;show&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;route&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/routes.rb&#10;hea&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;index&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;appl&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/application.css&#10;ap&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;co&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/pins.js.coffee&#10;&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/pins.css.scss&#10;pin&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/pins.js.coffee&#10;pin.cs&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/pins.css.scss&#10;app&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;_hea&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;application.c&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/application.css&#10;application.js&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;gemfile&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/Gemfile&#10;_for&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/_form.html.erb&#10;pin.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;ed&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/edit.html.erb&#10;sh&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;new.h&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/new.html.erb&#10;controll&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;control&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;form&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/_form.html.erb&#10;add&#9;null&#9;null&#10;in&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;show.h&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;pin.&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;user.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/user.rb&#10;scss&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/bootstrap_and_customization.css.scss&#10;he&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;home&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pages/home.html.erb&#10;application.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/application.rb&#10;applica&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/application.html.erb&#10;production.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/environments/production.rb&#10;development.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/environments/development.rb&#10;ho&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pages/home.html.erb&#10;head&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;contro&#9;null&#9;null&#10;routes.&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/user.rb&#10;show&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;index&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;pin.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;pi&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;inde&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;applic&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/application_controller.rb&#10;new&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/devise/registrations/new.html.erb&#10;edit&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/devise/registrations/edit.html.erb&#10;add_nam&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/db/migrate/20140602030247_add_name_to_users.rb&#10;gem&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/Gemfile&#10;pins&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;contr&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pages_controller.rb&#10;route&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/routes.rb&#10;hea&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;appl&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/application.css&#10;ap&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;co&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/pins.js.coffee&#10;&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/pins.css.scss&#10;pin&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/pins.js.coffee&#10;pin.cs&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/pins.css.scss&#10;app&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;_hea&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;application.c&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/application.css&#10;application.js&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/javascripts/application.js&#10;gemfile&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/Gemfile&#10;_for&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/_form.html.erb&#10;pin.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;ed&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/edit.html.erb&#10;sh&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;new.h&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/new.html.erb&#10;controll&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;control&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/controllers/pins_controller.rb&#10;form&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/_form.html.erb&#10;add&#9;null&#9;null&#10;in&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/index.html.erb&#10;show.h&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pins/show.html.erb&#10;pin.&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/pin.rb&#10;user.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/models/user.rb&#10;scss&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/assets/stylesheets/bootstrap_and_customization.css.scss&#10;he&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;home&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pages/home.html.erb&#10;application.rb&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/application.rb&#10;applica&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/application.html.erb&#10;production.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/environments/production.rb&#10;development.r&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/environments/development.rb&#10;ho&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/pages/home.html.erb&#10;head&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/app/views/layouts/_header.html.erb&#10;contro&#9;null&#9;null&#10;routes.&#9;FILE&#9;file:///Users/GILBERT/Desktop/tooboo/config/routes.rb" />
     <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
   <component name="RunManager" selected="Rails.Development: tooboo">
@@ -431,16 +401,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="50" width="1279" height="790" extended-state="0" />
-    <editor active="true" />
+    <frame x="44" y="22" width="1279" height="790" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.328125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3177041" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32255456" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39917126" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -449,9 +418,10 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32872927" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -475,13 +445,13 @@
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -514,13 +484,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/routes.rb">
@@ -560,13 +530,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pages/about.html.erb">
@@ -577,13 +547,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="MarkdownPreviewEditor">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.051282052" vertical-offset="0" max-vertical-offset="585">
           <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
-      </provider>
-      <provider editor-type-id="MarkdownPreviewEditor">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
@@ -670,13 +640,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.14705883" vertical-offset="0" max-vertical-offset="612">
-          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/migrate/20140529010656_add_user_id_to_pins.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
@@ -752,7 +715,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.40819424" vertical-offset="91" max-vertical-offset="750">
           <caret line="24" column="53" selection-start-line="24" selection-start-column="53" selection-end-line="24" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -760,15 +722,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3448276" vertical-offset="0" max-vertical-offset="696">
           <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="672">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -776,7 +729,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.06828528" vertical-offset="0" max-vertical-offset="659">
           <caret line="3" column="63" selection-start-line="3" selection-start-column="63" selection-end-line="3" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -784,22 +736,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="673">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.16837482" vertical-offset="0" max-vertical-offset="683">
-          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.193265" vertical-offset="0" max-vertical-offset="1892">
-          <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
           <folding />
         </state>
       </provider>
@@ -816,7 +752,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.14503817" vertical-offset="0" max-vertical-offset="655">
           <caret line="5" column="28" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -824,21 +759,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.021551725" vertical-offset="0" max-vertical-offset="696">
           <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/pins_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.13372956" vertical-offset="0" max-vertical-offset="1290">
+          <caret line="6" column="93" selection-start-line="6" selection-start-column="93" selection-end-line="6" selection-end-column="93" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/edit.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.275862" vertical-offset="0" max-vertical-offset="820">
+        <state vertical-scroll-proportion="0.27314112" vertical-offset="0" max-vertical-offset="659">
           <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/pin.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0862069" vertical-offset="0" max-vertical-offset="696">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.3793104" vertical-offset="0" max-vertical-offset="620">
+        <state vertical-scroll-proportion="0.04464286" vertical-offset="0" max-vertical-offset="672">
           <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
           <folding />
         </state>
@@ -846,7 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+        <state vertical-scroll-proportion="0.23706897" vertical-offset="0" max-vertical-offset="696">
           <caret line="11" column="50" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
           <folding />
         </state>
@@ -854,8 +804,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/pins/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46130502" vertical-offset="0" max-vertical-offset="893">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state vertical-scroll-proportion="-28.03125" vertical-offset="0" max-vertical-offset="1081">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12931034" vertical-offset="0" max-vertical-offset="696">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/pins/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.035714287" vertical-offset="0" max-vertical-offset="672">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding />
         </state>
       </provider>

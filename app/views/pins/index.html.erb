@@ -1,8 +1,8 @@
 <%= render 'pages/home' unless user_signed_in? %>
 
 <!--div id= "pins" for masonry-->
-<div id="pins" class="transitions-enabled">
-    <% @pins.each do |pin| %>
+    <div id="pins" class="transitions-enabled">
+        <% @pins.each do |pin| %>
 
       <!--div id= "box" for masonry-->
 
@@ -15,22 +15,22 @@
 
 
 
-   <% if pin.user == current_user && user_signed_in? %>
+   <% if current_user && (pin.user == current_user) && user_signed_in? %>
             <p><%= pin.user.name if pin.user %></p>
 
-        <p><%= link_to edit_pin_path(pin) do %>
+            <p><%= link_to edit_pin_path(pin) do %>
               <span class="glyphicon glyphicon-pencil"></span> Edit &nbsp
-              <% end %>
+         <% end %>
 
 
-                  <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
+                <%= link_to pin, method: :delete, data: { confirm: 'Are you sure?' } do %>
 
               <span class="glyphicon glyphicon-trash"></span> Delete
-              <% end %>
+   <% end %>
               </p>
 
 
-        <% end %>
+   <% end %>
         </div>
       </div>
 
